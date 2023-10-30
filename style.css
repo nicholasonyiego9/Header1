@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    height: 50px;
+    width: 100%;
+    background: #19801e;
+    justify-content: space-between;
+}
+.navbar ul{
+    display: inline-flex;
+    gap: 50px;
+    list-style: none;
+    margin-left: 1106px;
+    margin-top: 18px;
+    position: absolute;
+}
+
+.drop7{
+    margin-left: 820px;
+    margin-top: 20px;
+    position: absolute;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.navbar ul li{
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.navbar ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #72d387;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
+
+
+.navbar2{
+    height: 50px;
+    width: 100%;
+    background: white;
+    justify-content: space-between;
+}
+.navbar2 ul{
+    display: inline-flex;
+    gap: 50px;
+    list-style: none;
+    margin-left: 600px;
+    margin-top: 18px;
+    position: absolute;
+}
+
+.navbar2 ul li{
+    color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+
+
+.box{
+    background-color: #19801e;
+    padding: 250px 150px;
+    width: 30%;
+    margin-top: 0;
+    margin-bottom: 10px;
+    position: absolute;
+}
+
+.text{
+    color: white;
+    position: absolute;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-left: 220px;
+    margin-top: 125px;
+    text-align: center;
+    
+}
+
+.text2{
+    color: white;
+    position: absolute;
+    font-size: 12px;
+    font-family: sans-serif;
+    margin-left: 170px;
+    margin-top: 250px;
+}
+
+.pic img{
+    width: 665px;
+    height: 500px;
+    margin-left: 700px;
+    position: absolute;
+}
+
+.pic1 img{
+    width: 700px;
+    height: 500px;
+    margin-left: 0;
+    opacity: 10%;
+    position: absolute;
+}
+
+.drop{
+    position: absolute;
+    margin-top: 18px;
+    margin-left: 630px;
+    font-family: sans-serif;        
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.drop1{
+    position: absolute;
+    margin-top: 18px;
+    margin-left: 857px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.drop2{
+    position: absolute;
+    margin-top: 18px;
+    margin-left: 480px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.drop4{
+    position: absolute;
+    margin-top: 18px;
+    margin-left: 1140px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.drop4 ul li{
+    list-style: none;
+    cursor: pointer;
+}
+
+.drop4 ul li:hover{
+    color: #4ea052;
+}
+.drop5{
+    position: absolute;
+    margin-top: 18px;
+    margin-left: 1030px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.drop5 ul li:hover{
+    color: #4ea052;
+}
+
+
+.drop8{
+    position: absolute;
+    margin-top: 18px;
+    margin-left: 658px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+}
+
+.drop8 ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #72d387;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.drop8 ul li:hover::after{
+    width: 100%;
+}
+
+.drop5 ul li{
+    list-style: none;
+}
+
+
+
+.apart{
+    margin-top: 500px;
+    position: relative;
+}
+
+.back{
+    background-color: rgb(141, 141, 141);
+    padding: 0.5px;
+    width: 88%;
+    margin-top: 400px;
+    margin-bottom: 10px;
+    position: absolute;
+    margin-left: 100px;
+}
+
+.txt h1{
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 150px;
+    position: absolute;
+    margin-left: 100px;
+}
+
+.txt h3{
+    font-family: sans-serif;
+    color: rgb(116, 116, 116);
+    font-size: 15px;
+    margin-top: 200px;
+    position: absolute;
+    margin-left: 100px;
+}
+
+.txt1 h1{
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 150px;
+    position: absolute;
+    margin-left: 550px;
+}
+
+.txt1 h3{
+    font-family: sans-serif;
+    color: rgb(116, 116, 116);
+    font-size: 15px;
+    margin-top: 200px;
+    position: absolute;
+    margin-left: 550px;
+}
+
+.txt2 h1{
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 150px;
+    position: absolute;
+    margin-left: 1050px;
+}
+
+.txt2 h3{
+    font-family: sans-serif;
+    color: rgb(116, 116, 116);
+    font-size: 15px;
+    margin-top: 200px;
+    position: absolute;
+    margin-left: 1050px;
+}
+
+.word{
+    font-family: sans-serif;
+    font-size: 12px;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 425px;
+}
+
+.navbar1 ul{
+    display: inline-flex;
+    gap: 50px;
+    list-style: none;
+    margin-left: 900px;
+    margin-top: 25px;
+    position: absolute;
+    margin-left: 1050px;
+}
+
+.navbar1 ul li{
+    color: rgb(56, 56, 56);
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 410px;
+}
